@@ -1,0 +1,201 @@
+:root {
+
+      --bg-dark: #0a0a0a;
+
+      --card-bg: #141414;
+
+      --yellow-primary: #f5b700;
+
+      --yellow-glow: #ffd000;
+
+      --text-gold: #ffcc00;
+
+    }
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+    body {
+
+      font-family: 'Montserrat', sans-serif;
+
+      background-color: var(--bg-dark);
+
+      color: #ffffff;
+
+      overflow-x: hidden;
+
+    }
+
+
+
+    .font-fredoka { font-family: 'Fredoka', sans-serif; }
+
+    .font-caveat { font-family: 'Caveat', cursive; }
+
+
+
+/* Efeito de Texto 3D da Logo */
+
+    .text-3d-yellow {
+
+      color: var(--yellow-primary);
+
+      text-shadow:
+
+        2px 2px 0px #000,
+
+        4px 4px 0px rgba(245, 183, 0, 0.4),
+
+        6px 6px 10px rgba(0,0,0,0.8);
+
+    }
+
+
+
+/* Moldura Angular para Foto da Cafeteria */
+
+    .angled-frame {
+
+      border: 4px solid var(--yellow-primary);
+
+      border-radius: 28px;
+
+      transform: rotate(-2.5deg);
+
+      transition: transform 0.3s ease;
+
+    }
+
+    .angled-frame:hover {
+
+      transform: rotate(0deg) scale(1.02);
+
+    }
+
+
+
+/* Ondas Divisórias (Waves) */
+
+    .wave-divider {
+
+      width: 100%;
+
+      line-height: 0;
+
+    }
+
+
+
+/* Botão Amarelo Padrão */
+
+    .btn-gold {
+
+      background: linear-gradient(180deg, #f5b700 0%, #e0a700 100%);
+
+      color: #000;
+
+      font-weight: 700;
+
+      border-radius: 9999px;
+
+      box-shadow: 0 4px 15px rgba(245, 183, 0, 0.3);
+
+      transition: all 0.2s ease;
+
+    }
+
+    .btn-gold:hover {
+
+      transform: translateY(-2px);
+
+      box-shadow: 0 6px 20px rgba(245, 183, 0, 0.5);
+
+    }
+
+
+
+/* Scrollbar Personalizado */
+
+    ::-webkit-scrollbar { width: 8px; }
+
+    ::-webkit-scrollbar-track { background: #0a0a0a; }
+
+    ::-webkit-scrollbar-thumb { background: var(--yellow-primary); border-radius: 4px; }
+
+
+/* Menu hambúrguer: aparece somente em telas de celular */
+.mobile-menu-button {
+  display: none;
+  width: 42px;
+  height: 42px;
+  padding: 9px;
+  border: 1px solid var(--yellow-primary);
+  border-radius: 8px;
+  background: transparent;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.mobile-menu-button span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--yellow-primary);
+}
+
+.mobile-menu {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .mobile-menu-button {
+    display: flex;
+  }
+
+  .mobile-menu.mobile-menu-open {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 8px 16px 14px;
+    background: #0a0a0a;
+    border-top: 1px solid rgba(245, 183, 0, 0.2);
+  }
+
+  .mobile-menu a,
+  .mobile-menu button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 12px 8px;
+    border: 0;
+    background: transparent;
+    color: #ffffff;
+    font: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .mobile-menu a i,
+  .mobile-menu button i {
+    width: 18px;
+    color: var(--yellow-primary);
+  }
+
+  .mobile-menu a:hover,
+  .mobile-menu button:hover {
+    color: var(--yellow-primary);
+  }
+}
