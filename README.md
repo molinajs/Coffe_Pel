@@ -52,16 +52,16 @@ Este repositório serve como base acadêmica e demonstra conceitos como:
 Algumas capturas de tela para ilustrar as diferentes seções do site:
 
 ### ☕ Página Inicial
-<img src="imagens/inicio.jpg" alt="Página inicial do Coffee Pel" style="max-width: 100%;">
+<img src="imagens-/iniciocoffepel.jpg" alt="Página inicial do Coffee Pel" style="max-width: 100%;">
 
-### 📋 Cardápio
-<img src="imagens/cardapio.jpg" alt="Cardápio do Coffee Pel" style="max-width: 100%;">
+### 📋 Menu
+<img src="imagens-/cardapiocoffepel.jpg" alt="Cardápio do Coffee Pel" style="max-width: 100%;">
 
-### 🍰 Produtos
-<img src="imagens/produtos.jpg" alt="Produtos da cafeteria" style="max-width: 100%;">
+### 🍰 Avaliações
+<img src="imagens-/avaliacoes.jpg" alt="Produtos da cafeteria" style="max-width: 100%;">
 
-### 📱 Redes Sociais e Contato
-<img src="imagens/contato.jpg" alt="Redes sociais e contato" style="max-width: 100%;">
+### 📱 Localização
+<img src="imagens-/locaciacao.jpg" alt="Redes sociais e contato" style="max-width: 100%;">
 
 ---
 
